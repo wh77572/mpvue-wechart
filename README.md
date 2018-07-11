@@ -1,4 +1,4 @@
-# 白云生 - 小程序
+# 使用mpvue来搭建的小程序
 
 [http://mpvue.com/](http://mpvue.com/)
 
@@ -23,7 +23,7 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-minui使用方法：(https://meili.github.io/min/docs/minui/index.html)
+#minui使用方法：(https://meili.github.io/min/docs/minui/index.html)
 1、安装min （npm install -g @mindev/min-cli）  查看安装是否成功： min -V
 2、在项目中需要使用到组件的时候，需要使用min来安装，这里以panel为例，
  [ --------
