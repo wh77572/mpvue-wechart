@@ -1,6 +1,6 @@
 {
   "npm": {
-    "dest": "dist"
+    "dest": "src/static"
   },
   "compilers": {
     "babel": {

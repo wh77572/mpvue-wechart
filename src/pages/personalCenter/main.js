@@ -8,7 +8,7 @@ export default {
   config: {
     navigationBarTitleText: '个人中心',
     usingComponents: {
-      'wxc-loadmore': '../../../dist/@minui/wxc-loadmore/dist/index'
+      'wxc-loadmore': '../../static/@minui/wxc-loadmore/dist/index'
     }
   }
 }

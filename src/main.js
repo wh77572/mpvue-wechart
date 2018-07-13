@@ -28,18 +28,18 @@ export default {
       list: [{
         pagePath: 'pages/index/main',
         text: '首页',
-        iconPath: 'static/img/icon_home.png',
-        selectedIconPath: 'static/img/icon_home_active.png'
+        // iconPath: 'static/img/icon_home.png',
+        // selectedIconPath: 'static/img/icon_home_active.png'
       }, {
         pagePath: 'pages/logs/main',
         text: '收益',
-        iconPath: 'static/img/icon_coupons.png',
-        selectedIconPath: 'static/img/icon_coupons_active.png'
+        // iconPath: 'static/img/icon_coupons.png',
+        // selectedIconPath: 'static/img/icon_coupons_active.png'
       }, {
         pagePath: 'pages/logs/main',
         text: '我',
-        iconPath: 'static/img/icon_me.png',
-        selectedIconPath: 'static/img/icon_me_active.png'
+        // iconPath: 'static/img/icon_me.png',
+        // selectedIconPath: 'static/img/icon_me_active.png'
       }]
     }
   }
