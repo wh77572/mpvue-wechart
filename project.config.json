@@ -10,7 +10,7 @@
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
 	"appid": "wxf029a207689f9a7c",
-	"projectname": "mpvue-project",
+	"projectname": "mpvue-weChart",
 	"condition": {
 		"search": {
 			"current": -1,

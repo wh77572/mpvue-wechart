@@ -1,14 +1,20 @@
-import request from './http';
+const requestData = {}
+export default function api(param, paramData) {
+  requestData.url = param.url
+  requestData.method = param.method
+  requestData.data = paramData
 
-const host = 'https://h5api.zhefengle.cn';
-const api = {
-  // test地址
-  authorList: () => request.get(`${host}/index/list_author_recommend.html`)
-};
+  return new Promise((resolve, reject) => {
+    requestData.success = (data) => {
+      resolve(data)
+    }
 
-// export default api
-export default { // 作为组件库(install)
-  install: function (Vue, name = '$http') { // 自定义名字(vue-resource也使用$http)
-    Object.defineProperty(Vue.prototype, name, { value: api });// 将组件库挂载在原型对象上
-  }
-};
+    requestData.fail = (data) => {
+      reject(data)
+    }
+
+    if (param.url) {
+      wx.request(requestData)
+    }
+  })
+}

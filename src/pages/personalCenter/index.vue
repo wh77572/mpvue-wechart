@@ -41,9 +41,8 @@
       <div class="ss">sss</div>
       <div class="ss">sss</div>
       <div class="ss">sss</div>
+      <wxc-loadmore :is-end="true"></wxc-loadmore>
     </scroll-view>
-
-    <wxc-loadmore :is-end="true"></wxc-loadmore>
   </div>
 </template>
 

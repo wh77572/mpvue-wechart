@@ -43,10 +43,7 @@
 
 <script>
   // Use Vuex
-  import '@/../static/css/weui/style/weui.wxss';
   import store from './store';
-
-  /*  import '../../weui/style/weui.wxss' */
 
   export default {
     data() {
@@ -63,11 +60,6 @@
     },
     methods: {
       increment() {
-        this.$http.authorList()
-          .then((res) => {
-            // console.log('请求');
-            // console.log(res);
-          });
         store.commit('increment');
       },
       decrement() {
