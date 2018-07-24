@@ -1,10 +1,13 @@
 import Vue from 'vue';
+import store from '@/store'
 import App from './App';
 import ApiPlugin from './utils/api';
 
 Vue.use(ApiPlugin); // 使用组件库
 Vue.config.productionTip = false;
 App.mpType = 'app';
+
+Vue.prototype.$store = store
 
 const app = new Vue(App);
 app.$mount();

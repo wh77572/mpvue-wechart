@@ -88,9 +88,12 @@
         // console.log(e)
       },
       goToPage() {
-        wx.navigateTo({
-          url: 'details/main?title=navigate'
-        })
+        // wx.navigateTo({
+        //   url: 'details/main?title=navigate'
+        // })
+
+        this.$store.dispatch('test', 'sss')
+        // console.log(this.$store.state.test)
       }
     },
     beforeMount() {

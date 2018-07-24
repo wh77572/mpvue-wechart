@@ -7,6 +7,7 @@
 
     #minui使用方法：(https://meili.github.io/min/docs/minui/index.html)
     1、安装min （npm install -g @mindev/min-cli）  查看安装是否成功： min -V
+    (注： 安装不成功可能是因为权限的原因，可以使用sudo npm install -g @mindev/min-cli)
     2、在项目中需要使用到组件的时候，需要使用min来安装，这里以panel为例，
      [ --------
         1、min install @minui/wxc-panel
@@ -57,4 +58,7 @@
         console.log(getCurrentUrl().url) ---> 获取当前路由
         console.log(getCurrentUrl().urlWithArgs)  ----> 获取路由所带参数
       }
+
+7、更新全局vuex值处理
+通过  this.$store.dispatch('test', 'sss') 来触发事件并改变值
 
