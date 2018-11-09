@@ -4,7 +4,7 @@
 
   (比较了weui，zanui，Wa-UI, wux, wetoast, 以及刚出来的iView等等)，minui还是能满足大部分的需求的， 
   
-  >下面是使用方法：（minui使用方法：(https://meili.github.io/min/docs/minui/index.html)）  
+  >下面是使用方法：（minui使用方法：https://meili.github.io/min/docs/minui/index.html）  
   >> 1、安装min （npm install -g @mindev/min-cli）  查看安装是否成功： min -V  
       (注： 安装不成功可能是因为权限的原因，可以使用sudo npm install -g @mindev/min-cli)   
       
