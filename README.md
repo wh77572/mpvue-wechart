@@ -9,9 +9,9 @@
       (注： 安装不成功可能是因为权限的原因，可以使用sudo npm install -g @mindev/min-cli)   
       
   >> 2、在项目中需要使用到组件的时候，需要使用min来安装，这里以panel为例，  
-  >>>   1、min install @minui/wxc-panel  
-  >>>   2、在main文件中添加：  
-  >>>    usingComponents: {    
+  >>   1、min install @minui/wxc-panel  
+  >>   2、在main文件中添加：  
+  >>    usingComponents: {    
                           'wxc-loadmore': '../../../dist/@minui/wxc-panel/dist/index'    
                         }    
 
